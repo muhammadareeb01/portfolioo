@@ -5,7 +5,8 @@ import { educations } from "@/utils/data/educations";
 import { BsPersonWorkspace } from "react-icons/bs";
 import AnimationLottie from "../../helper/animation-lottie";
 import GlowCard from "../../helper/glow-card";
-import lottieFile from './public/lottie/study.json';
+import lottieFile from "@/public/lottie/study.json";
+
 
 function Education() {
   return (
@@ -15,8 +16,11 @@ function Education() {
         alt="Hero"
         width={1572}
         height={795}
+        placeholder="blur"
         className="absolute top-0 -z-10"
+
       />
+
       <div className="flex justify-center -translate-y-[1px]">
         <div className="w-3/4">
           <div className="h-[1px] bg-gradient-to-r from-transparent via-violet-500 to-transparent  w-full" />
