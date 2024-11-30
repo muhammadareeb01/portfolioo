@@ -1,4 +1,5 @@
 // @flow strict
+'use client'
 import { skillsData } from "@/utils/data/skills";
 import { skillsImage } from "@/utils/skill-image";
 import Image from "next/image";
@@ -52,7 +53,7 @@ function Skills() {
                 <div className="flex flex-col items-center justify-center gap-3 p-6">
                   <div className="h-8 sm:h-10">
                     <Image
-                      src={skillsImage(skill)?.src || "/placeholder.png"}
+                      src={skillsImage(skill)?.src || "/skills/placeholder.svg"}
                       alt={skill}
                       width={40}
                       height={40}
