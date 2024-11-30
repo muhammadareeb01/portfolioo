@@ -9,6 +9,10 @@ import "./css/globals.scss";
 import ScrollToTop from "./components/helper/scroll-to-top";
 const inter = Inter({ subsets: ["latin"] });
 
+export const metadata = {
+  title: "Areeb Portfolio - Software Developer",
+
+};
 
 export default function RootLayout({ children }) {
   return (
