@@ -7,6 +7,7 @@ export const personalData = {
   email: "syedareebali795@gmail.com",
   github: "https://github.com/muhammadareeb018",
   linkedIn: "https://www.linkedin.com/in/muhammad-areeb-7061a4225/",
+  
   resume:
     "https://drive.google.com/file/d/19Lg0MjgNDQbEm0cDmiJ5ZWqRcOmgNpY8/view?usp=sharing",
 };
